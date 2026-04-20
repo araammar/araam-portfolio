@@ -1,6 +1,6 @@
-# employment
+# Aram Marmoud — Portfolio
 
-Personalized landing pages for internship applications. Each company gets its own page at `/for/[company]`, driven by a config file.
+Personal portfolio and per-company tailored landing page system. Built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
 
 ## How it works
 

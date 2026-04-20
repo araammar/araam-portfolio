@@ -1,11 +1,14 @@
 import { redirect } from "next/navigation";
 import { getCompany } from "@/lib/getCompany";
 import Hero from "@/components/chunks/Hero";
-import WhyCompany from "@/components/chunks/WhyCompany";
-import FocusAreas from "@/components/chunks/FocusAreas";
 import WhyUseful from "@/components/chunks/WhyUseful";
-import ProofClosing from "@/components/chunks/ProofClosing";
+import Proof from "@/components/chunks/Proof";
+import WhyCompany from "@/components/chunks/WhyCompany";
+import Closing from "@/components/chunks/Closing";
 import Section from "@/components/ui/Section";
+import TopNav from "@/components/shared/TopNav";
+import Divider from "@/components/shared/Divider";
+import ScrollReset from "@/components/shared/ScrollReset";
 import { CompanyConfig } from "@/lib/types";
 import { Metadata } from "next";
 import { glob } from "glob";
@@ -45,32 +48,43 @@ export default async function CompanyPage({ params }: PageProps) {
   return (
     <main
       style={{ "--accent": config.accent } as React.CSSProperties}
-      className="min-h-screen bg-white text-gray-900"
+      className="bg-white text-[#0A0A0A]"
     >
-      <Section>
-        <Hero
-          hero={config.hero}
-          heroSubtitle={config.heroSubtitle}
-          company={config.company}
-          role={config.role}
-          accent={config.accent}
-        />
-      </Section>
+      <ScrollReset />
+      <TopNav />
 
-      <Section>
-        <WhyCompany company={config.company} whyCompany={config.whyCompany} />
-      </Section>
+      {/* Hero with split-reveal — FocusAreas renders behind the panels */}
+      <Hero
+        hero={config.hero}
+        heroSubtitle={config.heroSubtitle}
+        company={config.company}
+        role={config.role}
+        accent={config.accent}
+        focusAreas={config.focusAreas}
+      />
 
-      <Section>
-        <FocusAreas focusAreas={config.focusAreas} />
-      </Section>
-
-      <Section>
+      {/* Document flow — no FocusAreas duplicate */}
+      <Section className="py-24 md:py-32">
         <WhyUseful whyUseful={config.whyUseful} />
       </Section>
 
-      <Section>
-        <ProofClosing proof={config.proof} email={config.email} />
+      {config.proof && config.proof.length > 0 && (
+        <>
+          <Divider />
+          <Section className="py-24 md:py-32">
+            <Proof proof={config.proof} />
+          </Section>
+        </>
+      )}
+
+      <Divider />
+
+      <Section className="py-24 md:py-32">
+        <WhyCompany company={config.company} whyCompany={config.whyCompany} />
+      </Section>
+
+      <Section className="py-24 md:py-32 pb-40 md:pb-60">
+        <Closing closing={config.closing} email={config.email} />
       </Section>
     </main>
   );

@@ -4,26 +4,19 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0A0A0A;
   --accent: #111111; /* overridden per company page */
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background-color: var(--background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
-  }
-  .text-accent {
-    color: var(--accent);
-  }
-  .bg-accent {
-    background-color: var(--accent);
-  }
-  .border-accent {
-    border-color: var(--accent);
   }
 }

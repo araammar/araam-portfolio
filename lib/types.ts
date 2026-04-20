@@ -1,17 +1,21 @@
 export type CompanyConfig = {
+  // meta
   slug: string;
   company: string;
   role: string;
-  accent: string; // hex color e.g. "#635BFF"
-  hero: string; // e.g. "Working with Stripe"
-  heroSubtitle: string;
-  whyCompany: string; // 2-3 sentences
-  focusAreas: string[]; // 3-5 items
-  whyUseful: string[]; // 3-4 items
-  proof: {
-    title: string;
-    url: string;
-    description?: string;
-  }[];
+  accent: string;
   email: string;
+  // section 1
+  hero: string;
+  heroSubtitle: string;
+  // section 2
+  focusAreas: string[];
+  // section 3
+  whyUseful: string[];
+  // section 4 (optional — omit to hide the Proof section)
+  proof?: { title: string; url: string; description?: string }[];
+  // section 5
+  whyCompany: string;
+  // closing
+  closing: string;
 };
