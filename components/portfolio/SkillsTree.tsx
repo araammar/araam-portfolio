@@ -71,7 +71,7 @@ function getCrossCutPos(angle: number): { x: number; y: number } {
 
 /**
  * Compute line endpoints at circle edges, accounting for each node's current
- * hover/select scale. Only pass hover/select scale — breathing (1.0–1.02) is
+ * hover/select scale. Only pass hover/select scale - breathing (1.0–1.02) is
  * absorbed visually and intentionally ignored here to avoid coordinate jitter.
  */
 function edgeEndpoints(
@@ -243,7 +243,7 @@ export default function SkillsTree() {
   }
 
   // Effective visual scale for line endpoint math.
-  // Breathing (1.0–1.02) is intentionally excluded — only hover/select matter.
+  // Breathing (1.0–1.02) is intentionally excluded - only hover/select matter.
   function getNodeScale(nodeId: string): number {
     if (selectedSkillId === nodeId) return 1.15;
     if (hoveredId === nodeId) return 1.1;
@@ -288,7 +288,7 @@ export default function SkillsTree() {
       : { duration: 0.3, delay: entranceDelaySecs, ease: "easeOut" as const };
   }
 
-  // Coordinate animation transition — always fast, no entrance delay
+  // Coordinate animation transition - always fast, no entrance delay
   const coordTransition = { duration: 0.2, ease: EASE };
 
   // ── Stable node indices for breathing stagger ──────────────────────────
@@ -311,7 +311,7 @@ export default function SkillsTree() {
       {/* ── Mobile (below md) ──────────────────────────────────────────── */}
       <section className="md:hidden px-6 py-16 border-t-[0.5px] border-neutral-900">
         <p className="text-[10px] uppercase tracking-widest text-neutral-900 font-bold mb-10">
-          § 002 — Skills
+          § 002 · Skills
         </p>
         <p className="text-base text-neutral-600 mb-12">
           What I know, how I use it, and where it shows up in the work.
@@ -335,7 +335,7 @@ export default function SkillsTree() {
           transition={{ duration: 0.5, ease: EASE }}
           className="text-sm font-medium tracking-wide text-neutral-900 mb-12 md:mb-16"
         >
-          § 002 — Skills
+          § 002 · Skills
         </motion.p>
 
         {/* ── Desktop: split-screen diagram (xl+) ───────────────────────── */}

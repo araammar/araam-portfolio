@@ -14,8 +14,8 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Aram Marmoud",
-  description: "Software engineer & internship applicant",
+  title: "Araam Marmoud",
+  description: "Business student building marketing systems, web tools, and lead-generation infrastructure.",
 };
 
 export default function RootLayout({

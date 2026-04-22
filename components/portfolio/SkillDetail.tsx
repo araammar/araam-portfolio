@@ -32,7 +32,7 @@ export default function SkillDetail({ skill, onClose }: Props) {
         />
       </div>
 
-      {/* Fields — stacked vertically */}
+      {/* Fields - stacked vertically */}
       <div className="flex flex-col gap-7 overflow-y-auto flex-1">
         <div>
           <p className="text-[10px] uppercase tracking-widest text-neutral-500 font-bold mb-2">

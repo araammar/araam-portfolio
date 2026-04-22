@@ -75,7 +75,7 @@ export default function SkillNode({
     innerAnimate = { scale: 1.1 };
     innerTransition = { duration: 0.15, ease: EASE };
   } else if (entranceComplete) {
-    // Idle breathing — only after all nodes have entered
+    // Idle breathing - only after all nodes have entered
     innerAnimate = { scale: [1, 1.02, 1] };
     innerTransition = {
       scale: {
@@ -86,7 +86,7 @@ export default function SkillNode({
       },
     };
   } else {
-    // Entrance still in progress — hold flat at scale 1
+    // Entrance still in progress - hold flat at scale 1
     innerAnimate = { scale: 1 };
     innerTransition = { duration: 0.3 };
   }

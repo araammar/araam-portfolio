@@ -26,14 +26,14 @@ export default function About() {
       {/* ── Mobile (below md) ──────────────────────────────────────────── */}
       <section className="md:hidden px-6 py-16 border-t-[0.5px] border-neutral-900">
         <p className="text-[10px] uppercase tracking-widest text-neutral-900 font-bold">
-          § 003 — About
+          § 003 · About
         </p>
 
         <h2 className="text-2xl font-bold leading-tight text-neutral-900 mt-8">
-          Business Administration student at the University at Buffalo — with a
-          focus on{" "}
-          <span style={{ color: "#0066FF" }}>marketing strategy</span>
-          {", "}web, and the systems that connect them.
+          Business Administration student at the University at Buffalo, focused
+          on growth, business strategy, and building{" "}
+          <span style={{ color: "#0066FF" }}>systems</span> that create
+          leverage.
         </h2>
 
         <div
@@ -42,27 +42,22 @@ export default function About() {
         />
 
         <p className="text-base text-neutral-700 leading-relaxed mt-8">
-          Currently Marketing Director at TrendArt, running campaigns across
-          six active client accounts. Previously international market strategy
-          at Eblon Dynamics in Beirut.
+          My work sits at the intersection of marketing, business development,
+          and execution, using strategy, research, and systems thinking to make
+          businesses sharper and more effective.
         </p>
 
         <p className="text-base text-neutral-700 leading-relaxed mt-4">
-          Most business students study marketing. I build the tools marketers
-          use — sales systems, lead scoring pipelines, personalized landing
-          pages, this portfolio. The plan is simple: skip the gap between
-          understanding and doing.
-        </p>
-
-        <p className="text-base text-neutral-700 leading-relaxed mt-4">
-          Based in Buffalo. Open to remote.
+          Recent projects include performance marketing at TrendArt, market
+          strategy at Eblon Dynamics, and solo-built systems for lead generation
+          and personalized outreach.
         </p>
       </section>
 
       {/* ── Desktop (md+) ──────────────────────────────────────────────── */}
       <section className="hidden md:block relative overflow-hidden py-24 md:py-32">
 
-        {/* Ghosted 03 — bottom-right */}
+        {/* Ghosted 03 */}
         <div
           className="absolute bottom-0 right-0 pointer-events-none overflow-hidden"
           style={{ zIndex: 0 }}
@@ -95,7 +90,7 @@ export default function About() {
             variants={fadeUp}
             className="text-[10px] uppercase tracking-[0.2em] text-neutral-900 font-bold mb-16 md:mb-20"
           >
-            § 003 — About
+            § 003 · About
           </motion.p>
 
           {/* Staggered content column */}
@@ -112,10 +107,10 @@ export default function About() {
                 variants={fadeUp}
                 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight text-neutral-900"
               >
-                Business Administration student at the University at Buffalo —
-                with a focus on{" "}
-                <span style={{ color: "#0066FF" }}>marketing strategy</span>
-                {", "}web, and the systems that connect them.
+                Business Administration student at the University at Buffalo,
+                focused on growth, business strategy, and building{" "}
+                <span style={{ color: "#0066FF" }}>systems</span> that create
+                leverage.
               </motion.h2>
 
               <motion.div
@@ -128,26 +123,18 @@ export default function About() {
                 variants={fadeUp}
                 className="text-base md:text-lg text-neutral-700 leading-relaxed mt-10 max-w-[70ch]"
               >
-                Currently Marketing Director at TrendArt, running campaigns
-                across six active client accounts. Previously international
-                market strategy at Eblon Dynamics in Beirut.
+                My work sits at the intersection of marketing, business
+                development, and execution, using strategy, research, and
+                systems thinking to make businesses sharper and more effective.
               </motion.p>
 
               <motion.p
                 variants={fadeUp}
                 className="text-base md:text-lg text-neutral-700 leading-relaxed mt-6 max-w-[70ch]"
               >
-                Most business students study marketing. I build the tools
-                marketers use — sales systems, lead scoring pipelines,
-                personalized landing pages, this portfolio. The plan is simple:
-                skip the gap between understanding and doing.
-              </motion.p>
-
-              <motion.p
-                variants={fadeUp}
-                className="text-base md:text-lg text-neutral-700 leading-relaxed mt-6 max-w-[70ch]"
-              >
-                Based in Buffalo. Open to remote.
+                Recent projects include performance marketing at TrendArt,
+                market strategy at Eblon Dynamics, and solo-built systems for
+                lead generation and personalized outreach.
               </motion.p>
 
             </div>

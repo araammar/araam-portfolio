@@ -1,4 +1,4 @@
-# Aram Marmoud — Portfolio
+# Araam Marmoud · Portfolio
 
 Personal portfolio and per-company tailored landing page system. Built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
 
@@ -9,7 +9,7 @@ Each company page is a statically generated Next.js route. The page reads a conf
 ## Adding a new company
 
 1. Create `content/companies/[slug].ts` (e.g. `stripe.ts`)
-2. Export a default `CompanyConfig` object — copy `_example.ts` as a starting point
+2. Export a default `CompanyConfig` object - copy `_example.ts` as a starting point
 3. Visit `/for/[slug]` in dev, or it will be pre-rendered at build time
 
 ```ts
@@ -42,11 +42,11 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-- `/` — placeholder homepage (name + email)
-- `/for/_example` — example company page
-- `/for/[slug]` — any configured company
-- `/for/nonexistent` — redirects to `/`
+- `/` - placeholder homepage (name + email)
+- `/for/_example` - example company page
+- `/for/[slug]` - any configured company
+- `/for/nonexistent` - redirects to `/`
 
 ## Deploying
 
-Push to GitHub. Vercel auto-detects Next.js and deploys on every push to `main`. No extra config needed — `generateStaticParams` ensures all company pages are pre-rendered at build time.
+Push to GitHub. Vercel auto-detects Next.js and deploys on every push to `main`. No extra config needed - `generateStaticParams` ensures all company pages are pre-rendered at build time.

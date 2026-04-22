@@ -26,7 +26,7 @@ export default function Contact() {
       {/* ── Mobile (below md) ──────────────────────────────────────────── */}
       <section className="md:hidden px-6 py-16 border-t-[0.5px] border-neutral-900">
         <p className="text-[10px] uppercase tracking-widest text-neutral-900 font-bold">
-          § 004 — Contact
+          § 004 · Contact
         </p>
 
         <p className="text-base text-neutral-600 mt-10">Let&apos;s talk.</p>
@@ -59,18 +59,18 @@ export default function Contact() {
           </a>
         </div>
 
-        {/* Mobile footer strip — stacks vertically */}
+        {/* Mobile footer strip */}
         <div className="mt-20 pt-6 border-t-[0.5px] border-neutral-900 flex flex-col gap-2 text-[10px] uppercase tracking-[0.2em] text-neutral-500 font-mono">
-          <span>Aram Marmoud</span>
-          <span>Portfolio — v.2026.001</span>
-          <span>BUF / NY</span>
+          <span>Araam Marmoud</span>
+          <span>Portfolio · v.2026.001</span>
+          <span>NEW YORK</span>
         </div>
       </section>
 
       {/* ── Desktop (md+) ──────────────────────────────────────────────── */}
       <section className="hidden md:block relative overflow-hidden pt-24 md:pt-32 pb-0 border-t-[0.5px] border-neutral-900">
 
-        {/* Ghosted 04 — bottom-right */}
+        {/* Ghosted 04 */}
         <div
           className="absolute bottom-0 right-0 pointer-events-none overflow-hidden"
           style={{ zIndex: 0 }}
@@ -103,7 +103,7 @@ export default function Contact() {
             variants={fadeUp}
             className="text-[10px] uppercase tracking-[0.2em] text-neutral-900 font-bold mb-16 md:mb-20"
           >
-            § 004 — Contact
+            § 004 · Contact
           </motion.p>
 
           {/* Staggered content column */}
@@ -160,15 +160,15 @@ export default function Contact() {
           </motion.div>
         </div>
 
-        {/* Footer strip — structural chrome, no entrance animation */}
+        {/* Footer strip */}
         <div
           className="relative mt-24 md:mt-32 px-8 md:px-16 py-6 border-t-[0.5px] border-neutral-900"
           style={{ zIndex: 10 }}
         >
           <div className="max-w-[1440px] mx-auto w-full flex items-center justify-between text-[10px] uppercase tracking-[0.2em] text-neutral-500 font-medium font-mono">
-            <span>Aram Marmoud</span>
-            <span>Portfolio — v.2026.001</span>
-            <span>BUF / NY</span>
+            <span>Araam Marmoud</span>
+            <span>Portfolio · v.2026.001</span>
+            <span>NEW YORK</span>
           </div>
         </div>
 

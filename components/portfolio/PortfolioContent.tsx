@@ -66,94 +66,97 @@ const CARDS: CardData[] = [
   {
     id: "01",
     name: "TrendArt Marketing Agency",
-    meta: "Marketing Director · 2025–present · Dubai (remote)",
+    meta: "Marketing Director · Summer 2025 · Dubai (Remote)",
     description:
-      "Designed and executed performance-driven campaigns for clients across multiple sectors, increasing client sign-ups 50% and agency revenue 120% in six months.",
+      "Helped shape TrendArt's growth during a scaling phase by leading performance-driven marketing across client accounts in e-commerce, hospitality, and professional services. Focused on campaign strategy, positioning, and improving internal delivery workflows.",
     context:
-      "Joined as Marketing Director during the agency's scale-up phase. Owned strategy across 6 active client accounts spanning e-commerce, hospitality, and professional services. Rebuilt the agency's positioning from generalist to performance-specialist.",
+      "Joined during a period of client growth and service expansion. Worked across multiple active accounts, helping push TrendArt toward a more performance-focused model while improving coordination across creative, media, and account management.",
     outcomes: [
-      "Client sign-ups +50% in six months",
-      "Agency revenue +120% year-over-year",
-      "Rebuilt internal workflow systems across creative, media, and account teams",
-      "Retained 100% of clients through two pricing increases",
+      "Contributed to a 50% increase in client sign-ups over six months",
+      "Supported 120% year-over-year revenue growth",
+      "Helped improve internal workflows across creative, media, and account handling",
+      "Strengthened delivery during a period of agency growth and pricing changes",
     ],
     stack: "Meta Ads Manager, Google Ads, Figma, Notion, WordPress, GA4",
-    links: ["trendartagency.com", "Case study PDF — coming soon"],
+    links: ["trendartagency.com", "Case study PDF, coming soon"],
     tags: ["MARKETING", "GROWTH"],
     status: "LIVE ↗",
   },
   {
     id: "02",
     name: "The Sniper",
-    meta: "Solo build · 2025",
+    meta: "Solo Build · 2026",
     description:
-      "Lead-generation system that identifies businesses running paid ads to weak landing pages. Built in Python with Playwright, SQLAlchemy, and the PageSpeed, Google Places, and Meta Ads Library APIs.",
+      "Lead-generation system built to identify businesses spending on paid ads while sending traffic to weak landing pages. Designed as a prospecting tool for targeted outreach, combining data collection, signal detection, and ranking into one workflow.",
     context:
-      "Built to solve a specific problem: identifying businesses worth cold-pitching. Scrapes business directories, enriches with ad-spend signals, scores for weak landing-page infrastructure, and outputs ranked outreach targets. Solo build, evenings and weekends.",
+      "Built to solve a specific business-development problem: finding companies worth pitching without relying on slow manual research. The system pulls business data, checks for advertising activity and marketing signals, evaluates landing-page quality, and outputs ranked outreach targets. Developed independently during evenings and weekends.",
     outcomes: [
-      "Discovery of 12,000+ ranked prospects across three verticals",
-      "Identified ~3% with high-value mismatch (spending on ads, landing on weak pages)",
-      "Reduced lead-research time from ~30min per prospect to under 1min",
+      "Generated 12,000+ ranked prospects across three target verticals",
+      "Identified a high-value subset of businesses spending on ads while underperforming on landing-page quality",
+      "Reduced lead-research time from roughly 30 minutes per prospect to under 1 minute",
+      "Built a repeatable workflow for business discovery, qualification, and outreach prioritization",
     ],
     stack:
       "Python, Playwright, SQLAlchemy, SQLite, Google Places API, Meta Ads Library, PageSpeed Insights API",
-    links: ["Demo video — coming soon", "Repo — private"],
+    links: ["Demo video, coming soon", "Repo, private"],
     tags: ["TECHNICAL", "SOLO"],
     status: "SOLO BUILD",
   },
   {
     id: "03",
     name: "Eblon Dynamics",
-    meta: "Business Development Associate · 2024–2025 · Beirut (remote)",
+    meta: "Business Development Associate · 2025–Present · Beirut / UAE (Remote)",
     description:
-      "International market strategy for a heavy-machinery parts distributor serving the Middle East. Reduced shipment lead time 15%.",
+      "Supported business development and procurement strategy for a heavy-equipment parts distributor operating in Lebanon and surrounding markets. Worked across sourcing, supplier evaluation, market research, and strategic positioning.",
     context:
-      "International market strategy and distribution development for a heavy-machinery parts distributor. Worked across bilingual markets (Arabic and English) to build relationships with U.S. suppliers and adapt positioning for Middle Eastern contractors.",
+      "The role focused on helping the company build a stronger supply and growth foundation in a fragmented market. Researched suppliers, explored partnership paths, and supported efforts to improve sourcing reliability while identifying commercial opportunities in heavy-equipment and generator parts.",
     outcomes: [
-      "Negotiated favorable shipping terms with multiple U.S. suppliers",
-      "Reduced shipment lead time 15% via logistics optimization",
-      "Built branding and marketing materials positioning the company as a trusted regional supplier",
+      "Contributed to a 15% reduction in shipment lead time",
+      "Identified supplier and partnership opportunities across regional and international markets",
+      "Supported market research for heavy-equipment and generator-parts demand in Lebanon",
+      "Helped shape a more structured business development and sourcing approach",
     ],
     stack:
-      "Apollo, LinkedIn Sales Navigator, bilingual ad research, Figma, direct outreach",
-    links: ["eblondynamics.com"],
-    tags: ["BUSINESS DEV", "INTL"],
-    status: "2024 — 2025",
+      "Market research, procurement strategy, supplier sourcing, partnership evaluation, business development, competitive analysis",
+    links: ["eblondynamics.com", "Case study PDF, coming soon"],
+    tags: ["BUSINESS DEV", "INTERNATIONAL"],
+    status: "2025 – PRESENT",
   },
   {
     id: "04",
-    name: "Startup Boot Camp — 2nd Place",
+    name: "Startup Bootcamp, 2nd Place",
     meta: "UB Blackstone LaunchPad · Fall 2025",
     description:
-      "Earned 2nd place university-wide for a high-impact startup pitch from a $2,500 prize pool.",
+      "Won second place in a university-wide startup pitch competition by presenting a venture concept built around clear market need, structured business logic, and strong pitch delivery.",
     context:
-      "UB Blackstone LaunchPad's competitive startup pitch event. Selected from a university-wide applicant pool. Pitched a high-impact startup concept and advanced to the final round.",
+      "The competition brought together student founders and early-stage ideas from across the university. Advanced to the final round and pitched to a judging panel, refining the concept around problem definition, value proposition, and founder-market fit.",
     outcomes: [
-      "2nd place university-wide from $2,500 prize pool",
-      "Feedback from a panel of VCs and entrepreneurs",
-      "Refined pitch structure and founder-market fit framing",
+      "Awarded 2nd place in a $2,500 university-wide prize pool",
+      "Received feedback from judges with experience in startups and venture-backed thinking",
+      "Improved how to structure, defend, and communicate early-stage business ideas",
+      "Strengthened ability to turn an idea into a credible, pitchable opportunity",
     ],
-    stack: "Pitch deck design in Figma, financial model in Sheets",
-    links: ["UB Blackstone LaunchPad", "Pitch deck — available on request"],
+    stack: "Figma, Google Sheets, pitch strategy, business modeling",
+    links: ["UB Blackstone LaunchPad", "Pitch deck, available on request"],
     tags: ["PITCH", "COMPETITION"],
     status: "FALL 2025",
   },
   {
     id: "05",
-    name: "The Personalized Page System",
-    meta: "Solo build · 2026",
+    name: "Personalized Page System",
+    meta: "Solo Build · 2026",
     description:
-      "Config-driven platform generating tailored landing pages for each company I apply to. Swiss-styled with a sticky-scroll hero mechanic and per-company content and color. Built in Next.js with Framer Motion.",
+      "Application-page system that generates tailored landing pages for individual companies and roles. Built to present strategic fit, relevant work, and design/technical ability in a format more direct than a traditional cover letter.",
     context:
-      "A config-driven system that generates a tailored landing page for every company I apply to — at araammarmoud.com/for/[company]. Each page is per-company styled, content-personalized, and built to demonstrate strategic thinking live instead of in a cover letter.",
+      "Created as a configurable system for publishing company-specific pages at araammarmoud.com/for/[company]. Each page adapts content, color, and structure to the target company while using a shared design framework. The goal was to build something more intentional than a static portfolio and more convincing than a generic application.",
     outcomes: [
-      "Swiss-styled hero with sticky split-reveal scroll mechanic",
-      "Per-company color and copy via a single config file",
-      "Sub-30-second per-page publish cadence once copy is finalized",
-      "Extensible to any company, any role",
+      "Built a reusable system for generating tailored pages from a single config-driven structure",
+      "Designed a Swiss-inspired hero with a sticky split-reveal interaction",
+      "Enabled fast company-level customization across copy, color palette, and content modules",
+      "Created a workflow that reduces per-page publishing time to under 30 seconds after copy is ready",
     ],
     stack: "Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Vercel",
-    links: ["araammarmoud.com/for/smartly", "System overview — coming soon"],
+    links: ["araammarmoud.com/for/smartly", "System overview, coming soon"],
     tags: ["WEB", "SYSTEM"],
     status: "LIVE ↗",
   },
@@ -199,7 +202,7 @@ function DefaultContent({
       transition={{ duration: 0.3, ease: EASE }}
       className="h-full flex flex-col p-4 md:p-5 overflow-hidden relative"
     >
-      {/* Tags — tiny, uppercase, architectural */}
+      {/* Tags - tiny, uppercase, architectural */}
       <div className="flex items-center flex-wrap gap-x-1 mb-2 shrink-0">
         {tags.map((tag, i) => (
           <span key={tag} className="text-[10px] uppercase tracking-[0.15em] text-neutral-500 font-medium">
@@ -211,15 +214,15 @@ function DefaultContent({
         ))}
       </div>
 
-      {/* Number — moves up 4px and turns accent on hover */}
+      {/* Number - moves up 4px and turns accent on hover */}
       <span className="text-base md:text-lg font-bold text-neutral-900 group-hover:text-[#0066FF] group-hover:-translate-y-1 transition-all duration-[250ms] ease-[cubic-bezier(0.22,1,0.36,1)] shrink-0">
         {id}
       </span>
 
-      {/* Accent rule — extends + turns blue on hover */}
+      {/* Accent rule - extends + turns blue on hover */}
       <div className="w-6 h-[1px] bg-neutral-900 mt-2 mb-1 transition-all duration-[250ms] group-hover:w-12 group-hover:bg-[#0066FF] shrink-0" />
 
-      {/* Arrow — slides in from right on hover */}
+      {/* Arrow - slides in from right on hover */}
       <span className="absolute top-4 right-4 text-sm font-bold text-neutral-900 opacity-0 translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-[250ms] ease-[cubic-bezier(0.22,1,0.36,1)] select-none">
         →
       </span>
@@ -232,7 +235,7 @@ function DefaultContent({
         {description}
       </p>
 
-      {/* Status indicator — bottom-right, turns blue on hover if LIVE */}
+      {/* Status indicator - bottom-right, turns blue on hover if LIVE */}
       <span
         className={[
           "absolute bottom-3 right-4 text-[10px] uppercase tracking-[0.15em] font-medium transition-colors duration-[250ms]",
@@ -365,7 +368,7 @@ export default function PortfolioContent() {
         <MobileHero cards={CARDS} />
       </div>
 
-      {/* ── Hero — exactly one viewport ───────────────────────────────── */}
+      {/* ── Hero - exactly one viewport ───────────────────────────────── */}
       {/*
         position: relative needed so the absolute-positioned decorative
         layers (ghosted 2026, corner annotations) anchor to this section.
@@ -375,7 +378,7 @@ export default function PortfolioContent() {
         {/*
           ── z-0: Background ghosted "2026" ──────────────────────────────
           Large outlined-only text bleeds off the bottom-right corner.
-          Transparent fill, 6% opacity stroke — evokes blueprint annotation.
+          Transparent fill, 6% opacity stroke - evokes blueprint annotation.
           pointer-events-none so it never intercepts clicks.
         */}
         <div
@@ -411,25 +414,25 @@ export default function PortfolioContent() {
           className="absolute top-[56px] right-6 text-[10px] font-mono text-neutral-400 pointer-events-none hidden md:block"
           style={{ zIndex: 5 }}
         >
-          N 42.88° W 78.87°
+          NEW YORK
         </span>
         <span
           className="absolute bottom-6 left-6 text-[10px] font-mono text-neutral-400 pointer-events-none hidden md:block"
           style={{ zIndex: 5 }}
         >
-          BUF / NY
+          NY / US
         </span>
         <span
           className="absolute bottom-6 right-6 text-[10px] font-mono text-neutral-400 pointer-events-none hidden md:block"
           style={{ zIndex: 5 }}
         >
-          LOCAL — 0001
+          LOCAL · 0001
         </span>
 
         {/*
           ── z-5: Left spine section index ───────────────────────────────
           Tiny rotated notation on the absolute left edge.
-          Book-chapter annotation vibe — § 001 — HERO.
+          Book-chapter annotation vibe - § 001 - HERO.
           Hidden on mobile.
         */}
         <div
@@ -440,7 +443,7 @@ export default function PortfolioContent() {
             className="text-[10px] font-mono tracking-[0.2em] text-neutral-400 uppercase"
             style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}
           >
-            § 001 — HERO
+            § 001 · HERO
           </span>
         </div>
 
@@ -452,10 +455,10 @@ export default function PortfolioContent() {
           className="shrink-0 flex items-center border-b-[0.5px] border-neutral-900 px-8 md:px-16 py-3 relative z-10"
         >
           <span className="text-sm uppercase tracking-widest text-neutral-600 font-bold shrink-0">
-            Aram Marmoud
+            Araam Marmoud
           </span>
 
-          {/* Scale axis ruler — hidden on mobile */}
+          {/* Scale axis ruler - hidden on mobile */}
           <div className="flex-1 relative h-full items-center mx-8 hidden md:flex">
             <div className="w-full h-[0.5px] bg-neutral-900 relative">
               {Array.from({ length: 11 }).map((_, i) => (
@@ -471,7 +474,7 @@ export default function PortfolioContent() {
             </div>
           </div>
 
-          {/* Viewing indicator — slides in when a card is active */}
+          {/* Viewing indicator - slides in when a card is active */}
           <AnimatePresence>
             {activeCardId && (
               <motion.div
@@ -486,7 +489,7 @@ export default function PortfolioContent() {
                   Viewing
                 </span>
                 <span className="text-[10px] uppercase tracking-[0.15em] text-neutral-900 font-medium">
-                  — {activeCardId} {getProjectName(activeCardId)}
+                  · {activeCardId} {getProjectName(activeCardId)}
                 </span>
               </motion.div>
             )}
@@ -503,7 +506,7 @@ export default function PortfolioContent() {
           </div>
         </motion.div>
 
-        {/* ── z-10: Hero body — outer split animates on card expand ────── */}
+        {/* ── z-10: Hero body - outer split animates on card expand ────── */}
         <div
           className="flex-1 flex flex-col md:grid md:grid-cols-[58%_42%] min-h-0 relative z-10"
           style={{
@@ -515,7 +518,7 @@ export default function PortfolioContent() {
           {/* Left region */}
           <div className="overflow-hidden md:h-full flex flex-col pt-8 md:pt-16 px-8 md:pl-16 md:pr-12 relative">
 
-            {/* Hero text — entrance slide-up, then fade-out when card expands */}
+            {/* Hero text - entrance slide-up, then fade-out when card expands */}
             <motion.div
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
@@ -526,17 +529,18 @@ export default function PortfolioContent() {
                 transition={{ duration: 0.3, ease: EASE }}
               >
                 <p className="text-xl md:text-2xl text-neutral-600">
-                  I&apos;m a business student who builds
+                  I&apos;m a Business student with
                 </p>
                 <h1 className="mt-6 md:mt-8 text-4xl md:text-6xl lg:text-7xl font-bold leading-[0.95] tracking-tight text-neutral-900">
-                  the <span style={{ color: ACCENT }}>tools</span> I&apos;d normally
-                  <br />
-                  be asked to use.
+                  <span style={{ color: ACCENT }}>Applied</span> ambition.
                 </h1>
+                <p className="text-base md:text-lg text-neutral-500 mt-8 max-w-[40ch]">
+                  Built through systems, strategy, and execution.
+                </p>
               </motion.div>
             </motion.div>
 
-            {/* Vertical WORK label — fades in when a card is expanded */}
+            {/* Vertical WORK label - fades in when a card is expanded */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: activeCardId !== null ? 1 : 0 }}
@@ -558,7 +562,7 @@ export default function PortfolioContent() {
 
           </div>
 
-          {/* Right region — card grid, orchestrates card entrance stagger */}
+          {/* Right region - card grid, orchestrates card entrance stagger */}
           <motion.div
             className={[
               "flex flex-col md:grid",
@@ -667,7 +671,7 @@ export default function PortfolioContent() {
                     </AnimatePresence>
                   </div>
 
-                  {/* Hover rule — extends from card right edge, only in default mode */}
+                  {/* Hover rule - extends from card right edge, only in default mode */}
                   {mode === "default" && (
                     <div
                       className="absolute pointer-events-none hidden md:block"

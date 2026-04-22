@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
 
-// Structural type — matches CardData in PortfolioContent
+// Structural type - matches CardData in PortfolioContent
 type Project = {
   id: string;
   name: string;
@@ -24,7 +24,7 @@ function MobileCard({ card }: { card: Project }) {
 
   return (
     <div className="border-b-[0.5px] border-neutral-900">
-      {/* Collapsed header — always visible */}
+      {/* Collapsed header - always visible */}
       <button
         onClick={() => setIsExpanded(!isExpanded)}
         className="w-full px-6 py-6 text-left flex flex-col gap-3"
@@ -67,7 +67,7 @@ function MobileCard({ card }: { card: Project }) {
         {/* Meta */}
         <p className="text-xs text-neutral-500">{card.meta}</p>
 
-        {/* Description — always visible, not truncated */}
+        {/* Description - always visible, not truncated */}
         <p className="text-sm text-neutral-700 leading-relaxed">{card.description}</p>
 
         {/* Status */}
@@ -150,7 +150,7 @@ export default function MobileHero({ cards }: Props) {
       {/* Top strip */}
       <div className="flex items-center justify-between px-6 py-3 border-b-[0.5px] border-neutral-900 shrink-0">
         <span className="text-xs uppercase tracking-widest text-neutral-600 font-medium">
-          Aram Marmoud
+          Araam Marmoud
         </span>
         <span className="text-sm font-bold text-neutral-900">↓</span>
       </div>
@@ -162,10 +162,13 @@ export default function MobileHero({ cards }: Props) {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: EASE, delay: 0.1 }}
       >
-        <p className="text-base text-neutral-600">I&apos;m a business student who builds</p>
+        <p className="text-base text-neutral-600">I&apos;m a Business student with</p>
         <h1 className="text-3xl font-bold leading-[1.05] tracking-tight text-neutral-900 mt-4">
-          the <span style={{ color: "#0066FF" }}>tools</span> I&apos;d normally be asked to use.
+          <span style={{ color: "#0066FF" }}>Applied</span> ambition.
         </h1>
+        <p className="text-sm text-neutral-500 mt-4">
+          Built through systems, strategy, and execution.
+        </p>
       </motion.div>
 
       {/* Card list */}

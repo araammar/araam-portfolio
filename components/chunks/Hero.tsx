@@ -79,7 +79,7 @@ export default function Hero({
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, ease: EASE }}
       >
-        {/* FocusAreas — sits at z-0, revealed as panels split */}
+        {/* FocusAreas - sits at z-0, revealed as panels split */}
         {/* Mobile: items-start so top bullets are always visible in the reveal */}
         {/* Desktop: items-center for the centered editorial look */}
         <div className="absolute inset-0 z-0 bg-white flex items-start pt-20 md:items-center md:pt-0">

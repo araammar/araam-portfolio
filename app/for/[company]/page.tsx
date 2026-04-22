@@ -33,7 +33,7 @@ export async function generateMetadata({
   const config = await getCompany(params.company);
   if (!config) return {};
   return {
-    title: `${config.hero} | Aram Marmoud`,
+    title: `${config.hero} | Araam Marmoud`,
     description: config.heroSubtitle,
   };
 }
@@ -53,7 +53,7 @@ export default async function CompanyPage({ params }: PageProps) {
       <ScrollReset />
       <TopNav />
 
-      {/* Hero with split-reveal — FocusAreas renders behind the panels */}
+      {/* Hero with split-reveal - FocusAreas renders behind the panels */}
       <Hero
         hero={config.hero}
         heroSubtitle={config.heroSubtitle}
@@ -63,7 +63,7 @@ export default async function CompanyPage({ params }: PageProps) {
         focusAreas={config.focusAreas}
       />
 
-      {/* Document flow — no FocusAreas duplicate */}
+      {/* Document flow - no FocusAreas duplicate */}
       <Section className="py-24 md:py-32">
         <WhyUseful whyUseful={config.whyUseful} />
       </Section>
