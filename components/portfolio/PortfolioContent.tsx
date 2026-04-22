@@ -66,21 +66,21 @@ const CARDS: CardData[] = [
   {
     id: "01",
     name: "TrendArt Marketing Agency",
-    meta: "Marketing Director · Summer 2025 · Dubai (Remote)",
+    meta: "Marketing Lead · May 2025 – Aug 2025 · Dubai, UAE / Remote",
     description:
-      "Helped shape TrendArt's growth during a scaling phase by leading performance-driven marketing across client accounts in e-commerce, hospitality, and professional services. Focused on campaign strategy, positioning, and improving internal delivery workflows.",
+      "Designed and executed performance-driven campaigns for clients across multiple sectors, driving a 42% client sign-up lift and 27% summer revenue growth in three months.",
     context:
-      "Joined during a period of client growth and service expansion. Worked across multiple active accounts, helping push TrendArt toward a more performance-focused model while improving coordination across creative, media, and account management.",
+      "Joined during a scaling phase across six active client accounts spanning e-commerce, hospitality, and professional services. Owned campaign strategy, creative direction, and media execution across all accounts, pushing the agency toward a more performance-focused model.",
     outcomes: [
-      "Contributed to a 50% increase in client sign-ups over six months",
-      "Supported 120% year-over-year revenue growth",
-      "Helped improve internal workflows across creative, media, and account handling",
+      "Drove 42% increase in client sign-ups over 3 months through data-driven campaigns",
+      "Grew agency revenue 27% over the summer via new service packages, pricing restructure, and upsell framework",
+      "Rebuilt internal workflows across creative, media, and account teams, cutting turnaround time and improving execution quality",
       "Strengthened delivery during a period of agency growth and pricing changes",
     ],
     stack: "Meta Ads Manager, Google Ads, Figma, Notion, WordPress, GA4",
     links: ["trendartagency.com", "Case study PDF, coming soon"],
     tags: ["MARKETING", "GROWTH"],
-    status: "LIVE ↗",
+    status: "SUMMER 2025",
   },
   {
     id: "02",
