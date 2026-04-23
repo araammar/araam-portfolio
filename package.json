@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@octokit/rest": "^22.0.1",
     "eslint-config-prettier": "^10.1.8",
     "framer-motion": "^12.38.0",
     "glob": "^13.0.6",
